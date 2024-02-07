@@ -1,4 +1,4 @@
-.input-textoEncriptado{
+#textoEncriptado{
 
     width: 577px;
     height: 48px;
@@ -11,6 +11,6 @@
     color: #000000;
 }
 
-.input-textoEncriptad,::placeholder{
+#textoEncriptado,::placeholder{
     color: #0A3871;
 }
