@@ -8,6 +8,9 @@
     font-size: 32px;
     font-weight: 400px;
     line-height: 48px;
-    color: #0A3871;
+    color: #000000;
 }
 
+.input-textoEncriptad,::placeholder{
+    color: #0A3871;
+}
