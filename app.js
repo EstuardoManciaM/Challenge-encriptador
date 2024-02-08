@@ -1,5 +1,5 @@
+let letra = 0;
 function EncriptarTexto() {
-    let letra = 0;
     let texto = [];
     let textoSalida = "";
     let textoUsuario = document.getElementById("textoEncriptado").value;
@@ -21,5 +21,22 @@ function EncriptarTexto() {
     textoSalida += texto;
     return (console.log(textoSalida.replaceAll(",", "")));
 }
-
 EncriptarTexto();
+
+
+
+function DesencriptarTexto() {
+    let textoSalida = "";
+    let textoUsuario = document.getElementById("textoEncriptado").value;
+
+
+    textoSalida += textoUsuario.replaceAll("ai", "a")
+        .replaceAll("enter", "e")
+        .replaceAll("imes", "i")
+        .replaceAll("ober", "o")
+        .replaceAll("ufat", "u");
+
+    console.log(textoSalida);
+}
+
+DesencriptarTexto();
